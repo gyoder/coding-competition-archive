@@ -1,0 +1,5 @@
+from __future__ import print_function
+
+with open( "prob02.txt", 'r') as f:
+    map(print, ['{} gallons per week will last {} weeks'.format(s.strip(), 10000/int(s)) for s in f if int(s) != 0])
+

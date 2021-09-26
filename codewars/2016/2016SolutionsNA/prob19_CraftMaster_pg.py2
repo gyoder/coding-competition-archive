@@ -1,0 +1,34 @@
+recipes = {}
+
+def find_ingredients (name, stuff, mult):
+    global recipes
+
+    for item in recipes[name]:
+        if item not in recipes:
+            if item in stuff:
+                stuff[item] += mult * recipes[name][item]
+            else:
+                stuff[item] = mult * recipes[name][item]
+        else:
+            find_ingredients(item, stuff, mult * recipes[name][item])
+
+with open( "prob19.txt", 'r') as f:
+    num_line = int(f.readline().strip())
+    for index in range(num_line):
+        items = f.readline().strip().split()
+        name = items[0]
+        num = int(items[1])
+        recipes[name] = {}
+        for k in range(num):
+            recipes[name][items[3 + 2*k]] = int(items[2+2*k])
+
+    for line in f:
+        line = line.strip()
+        if line == 'GO':
+            break
+        else:
+            stuff = {}
+            find_ingredients(line, stuff, 1)
+            print '[{}]'.format(line)
+            for key in sorted(stuff):
+                print '{} {}'.format(key, stuff[key])

@@ -1,0 +1,54 @@
+#/usr/bin/env python
+#
+# s = p / (d * d)
+#
+
+
+import fileinput
+
+
+def bruteforcebestguess(s1, s2, s3):
+    x1, y1 = 0, 100
+    x2, y2 = -100, -100
+    x3, y3 = 100, -100
+
+    mine = None
+    minx = None
+    miny = None
+
+    for x in range(-100, 100):
+        for y in range(-100, 100):
+            d1s = (x - x1) * (x - x1) + (y - y1) * (y - y1)
+            d2s = (x - x2) * (x - x2) + (y - y2) * (y - y2)
+            d3s = (x - x3) * (x - x3) + (y - y3) * (y - y3)
+
+            p1 = s1 * d1s
+            p2 = s2 * d2s
+            p3 = s3 * d3s
+
+            p = (p1 + p2 + p3) / 3
+
+            e = (p1 - p) * (p1 - p) + (p2 - p) * (p2 - p) + (p3 - p) * (p3 - p)
+
+            if mine is None or mine > e:
+                minx = x
+                miny = y
+                mine = e
+
+    return(minx, miny)
+
+
+def process(line):
+    s1, s2, s3 = map(float, line.split(None, 2))
+
+    if s1 == 0 and s2 == 0 and s3 == 0:
+        return False
+
+    x, y = bruteforcebestguess(s1, s2, s3)
+    print "{} {}".format(x, y)
+    return True
+        
+
+for line in fileinput.input():
+    if not process(line):
+        break

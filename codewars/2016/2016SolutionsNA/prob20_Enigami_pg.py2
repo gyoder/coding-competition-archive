@@ -1,0 +1,185 @@
+disk_map_T1 = [ ord('A'),
+                ord('M'),
+                ord('B'),
+                ord('I'),
+                ord('D'),
+                ord('E'),
+                ord('X'),
+                ord('T'),
+                ord('R'),
+                ord('O'),
+                ord('U'),
+                ord('S'),
+                ord('L'),
+                ord('Y'),
+                ord('Z'),
+                ord('W'),
+                ord('V'),
+                ord('Q'),
+                ord('P'),
+                ord('N'),
+                ord('K'),
+                ord('J'),
+                ord('H'),
+                ord('G'),
+                ord('F'),
+                ord('C')]
+
+disk_map_T2 = [ord('U'),
+               ord('N'),
+               ord('C'),
+               ord('O'),
+               ord('P'),
+               ord('Y'),
+               ord('R'),
+               ord('I'),
+               ord('G'),
+               ord('H'),
+               ord('T'),
+               ord('A'),
+               ord('B'),
+               ord('L'),
+               ord('E'),
+               ord('S'),
+               ord('Z'),
+               ord('X'),
+               ord('W'),
+               ord('V'),
+               ord('Q'),
+               ord('M'),
+               ord('K'),
+               ord('J'),
+               ord('F'),
+               ord('D')]
+
+disk_map_RD = [ord('N'),
+               ord('L'),
+               ord('K'),
+               ord('J'),
+               ord('I'),
+               ord('H'),
+               ord('P'),
+               ord('F'),
+               ord('E'),
+               ord('D'),
+               ord('C'),
+               ord('B'),
+               ord('Y'),
+               ord('A'),
+               ord('Z'),
+               ord('G'),
+               ord('X'),
+               ord('W'),
+               ord('V'),
+               ord('U'),
+               ord('T'),
+               ord('S'),
+               ord('R'),
+               ord('Q'),
+               ord('M'),
+               ord('O')]
+
+T2_rot = ['A', 'O']
+RD_rot = ['A', 'O']
+
+T1_index = 0
+T2_index = 0
+RD_index = 0
+
+inverse_T1 = [0] * 26
+inverse_T2 = [0] * 26
+
+def set_key (key):
+    global  T1_index
+    global  T2_index
+    global  RD_index
+
+    T1_index = ord(key[0]) - ord('A')
+    T2_index = ord(key[1]) - ord('A')
+    RD_index = ord(key[2]) - ord('A')
+
+
+def xlat (letter):
+    t1 = (disk_map_T1[(ord(letter) - ord('A') + T1_index)%26 ] - T1_index) % 26
+    t2 = (disk_map_T2[(t1 + T2_index)%26] - T2_index) %26
+    t3 = (disk_map_RD[(t2 + RD_index)%26] - RD_index) %26
+
+    t4 = (inverse_T2[(t3 + T2_index)%26] - T2_index) %26
+    t5 = (inverse_T1[(t4 + T1_index)%26] - T1_index) %26
+
+    return chr(t5 + ord('A'))
+
+def crypt(text):
+    global  T1_index
+    global  T2_index
+    global  RD_index
+
+    c_text = ''
+
+    for letter in text:
+        if letter < 'A' or letter > 'Z':
+            c_text += letter
+        else:
+            c_text += xlat(letter)
+
+            if chr(T2_index + ord('A'))== RD_rot[0] or chr(T2_index + ord('A'))== RD_rot[1]:
+                RD_index = (RD_index + 1) % 26
+
+            if chr(T1_index + ord('A')) == T2_rot[0] or chr(T1_index + ord('A')) == T2_rot[1]:
+                T2_index = (T2_index + 1) % 26
+
+            T1_index = (T1_index + 1) % 26
+
+    return c_text
+
+
+def find_keys (s):
+    global  T1_index
+    global  T2_index
+    global  RD_index
+    T1_index = 0
+    T2_index = 0
+    RD_index = 0
+
+    retv = '   '
+    s1 = s[0:3]
+    s2 = s[3:6]
+    daily = ''
+
+    for d1 in xrange(ord('A'), ord('Z')+1):
+        for d2 in xrange(ord('A'), ord('Z')+1):
+            for d3 in xrange(ord('A'), ord('Z')+1):
+                daily = chr(d1)+chr(d2)+chr(d3)
+
+                set_key(daily)
+
+                ct1 = crypt(s1)
+                ct2 = crypt(s2)
+                if ct1 == ct2:
+                    retv = daily;
+                    break;
+    return retv
+
+disk_map_T1 = map(lambda x : x - ord('A'), disk_map_T1)
+disk_map_T2 = map(lambda x : x - ord('A'), disk_map_T2)
+disk_map_RD = map(lambda x : x - ord('A'), disk_map_RD)
+
+for index, val in enumerate(disk_map_T1):
+    inverse_T1[val] = index
+
+for index, val in enumerate(disk_map_T2):
+    inverse_T2[val] = index
+
+with open( "prob20.txt", 'r') as f:
+    for line in f:
+        test_keys = line[0:6]
+
+        day_key = find_keys(test_keys)
+        set_key(day_key)
+        msg_key = crypt(test_keys[0:3])
+        set_key(msg_key)
+        msg = crypt(line[6:].strip())
+        print 'DK:{}     MK:{}     MSG: {}'.format(day_key, msg_key, msg)
+
+
+

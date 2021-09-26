@@ -1,0 +1,7 @@
+with open( "prob04.txt", 'r') as f:
+    for line in f:
+        nums = [float(k) for k in line.strip().split()]
+        if nums[0] != 0.0:
+            val = round(nums[0] * 10 ** nums[1], 2)
+            print '{:.2f}'.format(val)
+

@@ -1,0 +1,20 @@
+import sys
+
+with open( "prob08.txt", 'r') as f:
+    num = int(f.readline())
+    for line in f:
+        word = line.strip()
+        k = len(word)
+
+        for n in range((len(word) - 1)):
+            sys.stdout.write('{: >{prec}}'.format(word[: n + 1], prec = k))
+            print
+
+        print '{: >{prec}}'.format(word, prec = k)
+
+        for n in range((len(word) - 1)):
+            sys.stdout.write('{: <{prec}}'.format(word[n + 1: ], prec = k))
+            print
+             
+        print 
+

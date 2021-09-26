@@ -1,0 +1,10 @@
+with open( "prob06.txt", 'r') as f:
+    num = int(f.readline())
+    for line in f:
+        t, t0, t1, c0, c1 = [float(k) for k in line.strip().split()]
+        cal = (t1-t0)/(c1-c0)
+        val = (t - t0)/cal
+        val = (c0 + val)
+        print val/8.0
+
+

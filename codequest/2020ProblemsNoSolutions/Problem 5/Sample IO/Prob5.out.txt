@@ -1,0 +1,11 @@
+Record 1, Field 1: ABC
+Record 1, Field 2: 123
+Record 1, Field 3: def
+Record 2, Field 1: 456|789
+Record 2, Field 2: hij
+Record 3, Field 1: klm|nop|qrs
+Record 3, Field 2: 000
+Record 1, Field 1: Twelve
+Record 1, Field 2: Percent
+Record 1, Field 3: 12%
+Record 2, Field 1: This,is,all,one,field

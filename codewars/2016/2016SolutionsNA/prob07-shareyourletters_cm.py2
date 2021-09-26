@@ -1,0 +1,40 @@
+#/usr/bin/env python
+
+
+import fileinput
+
+
+def countletters(word):
+    result = {}
+    for l in word:
+        if l not in result:
+            result[l] = 0
+        result[l] += 1
+    return result
+
+
+def process(line):
+    a, b, c = line.split(None, 2)
+
+    da = countletters(a)
+    db = countletters(b)
+    dc = countletters(c)
+
+    result = ""
+
+    # Only need to consider keys from one of the words.
+    for l in sorted(da):
+        if (l in db) and (l in dc):
+            for i in range(min(da[l], db[l], dc[l])):
+                result += l
+                
+    return result
+
+
+count = None
+for line in fileinput.input():
+    if not count:
+        count = int(line)
+        continue
+    print process(line)
+    count = count - 1

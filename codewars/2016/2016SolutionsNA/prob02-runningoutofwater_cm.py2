@@ -1,0 +1,11 @@
+#/usr/bin/env python
+
+
+import fileinput
+
+
+for line in fileinput.input():
+    i = int(line)
+    if not i:
+        break
+    print "{} gallons per week will last {} weeks".format(i, 10000 / i)

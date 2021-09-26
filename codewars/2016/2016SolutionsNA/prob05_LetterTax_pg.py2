@@ -1,0 +1,7 @@
+with open( "prob05.txt", 'r') as f:
+    num = int(f.readline())
+    for line in f:
+        vals = line.strip().split()
+        skip = int(vals[0])
+        left = ''.join([k for n,k in enumerate(vals[1]) if n%skip != 0])
+        print '{} {}'.format( left, len(left))

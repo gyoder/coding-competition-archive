@@ -1,0 +1,14 @@
+with open( "prob07.txt", 'r') as f:
+    num = int(f.readline())
+    for line in f:
+        vals = line.strip().split()
+        found = []
+        out = []
+        for c in vals[0]:
+            it = min(vals[0].count(c), vals[1].count(c), vals[2].count(c))
+            if not c in found:
+                for x in range(it):
+                    out.append(c)
+            found.append(c)
+        print ''.join(sorted(out))
+

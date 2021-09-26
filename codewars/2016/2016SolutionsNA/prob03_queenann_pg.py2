@@ -1,0 +1,16 @@
+like = False
+with open( "prob03.txt", 'r') as f:
+    num = int(f.readline())
+    for line in f:
+        prev = ' '
+        like = False
+        for c in line.strip():
+            if prev == c:
+                like = True
+                break
+            prev = c
+        if like:
+            print 'likes {}'.format(line.strip())
+        else:
+            print 'hates {}'.format(line.strip())
+

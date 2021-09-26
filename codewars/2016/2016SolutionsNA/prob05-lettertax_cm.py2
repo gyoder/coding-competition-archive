@@ -1,0 +1,24 @@
+#/usr/bin/env python
+
+
+import fileinput
+
+
+def process(line):
+    tax, word = line.split(None, 1)
+    tax = int(tax)
+    result = ""
+    for i in range(len(word)):
+        if i % tax:
+            result += word[i]
+    return result
+
+
+count = None
+for line in fileinput.input():
+    line = line.rstrip('\n')
+    if not count:
+        count = int(line)
+        continue
+    print process(line), len(process(line))
+    count = count - 1

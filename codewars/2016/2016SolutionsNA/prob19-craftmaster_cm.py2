@@ -1,0 +1,63 @@
+#/usr/bin/env python
+
+
+import collections
+import fileinput
+
+
+recipes = {}
+
+
+def rawmaterials(item):
+    global recipes
+
+    if item not in recipes:
+        return {item: 1}
+
+    result = {}
+
+    for (name, number) in recipes[item]:
+        raw = rawmaterials(name)
+        for (rname, rnum) in raw.items():
+            if rname not in result:
+                result[rname] = 0
+            result[rname] += number * rnum
+
+    return result
+            
+
+def handle(line):
+    tokens = line.split()
+    thing = tokens[0]
+    if thing == 'GO':
+        return True
+    raw = rawmaterials(thing)
+    print '[{}]'.format(thing)
+    for name in sorted(raw.keys()):
+        print '{} {}'.format(name, raw[name])
+    return False
+
+
+def process(line):
+    global recipes
+    tokens = collections.deque(line.split())
+    item = tokens.popleft()
+    ignored = tokens.popleft()
+    recipes[item] = []
+    while tokens:
+        number = tokens.popleft()
+        name = tokens.popleft()
+        recipes[item].append((name, int(number)))
+
+
+count = None
+for line in fileinput.input():
+    if count is None:
+        count = int(line)
+        continue
+    if count:
+        process(line)
+        count -= 1
+    else:
+        if handle(line):
+            break

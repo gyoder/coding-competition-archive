@@ -1,0 +1,93 @@
+#!/usr/bin/env python
+
+
+import collections
+import fileinput
+from math import sqrt
+import sys
+
+
+def dist(a, b):
+    return sqrt((a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2 + (a[2] - b[2]) ** 2)
+
+
+def process(line):
+    (name, classs, mag, x, y, z) = line.split()
+
+    return name, float(x), float(y), float(z)
+
+
+def journey(line, data):
+    (s, e, d) = line.split()
+
+    d = int(d)
+
+    print "JOURNEY from {} to {}, max jump: {} LY".format(s, e, d)
+    print "STRAIGHT LINE DISTANCE: {:.2f} LY".format(dist(data[s], data[e]))
+
+    q = collections.deque([(tuple([s]), 0.0)])
+    shortestpath = None
+    shortestdist = None
+
+    shortPathToStar={}
+    for n in data:
+        shortPathToStar[n]=20000
+        
+    while q:
+        (basepath, basedist) = q.popleft()
+
+        if (shortestdist is not None) and (basedist > shortestdist):
+            continue
+
+        if basepath[-1] == e:
+            shortestpath = basepath
+            shortestdist = basedist
+            continue
+
+        for n in data:
+            if n in basepath:
+                continue
+            #thisdist = dist(data[basepath[-1]], data[n])
+            thisdist = starDists[basepath[-1]][n]
+            # Don't travel if too far, or we found a shorter distance to n before
+            if ((thisdist < d) and (basedist+thisdist < shortPathToStar[n])):
+                q.append((basepath + tuple([n]), basedist + thisdist))
+                shortPathToStar[n] = basedist + thisdist
+
+    if shortestpath is None:
+        print "No route from {} to {}".format(s, e)
+        return
+
+    p = shortestpath
+    print "number of jumps: {}".format(len(p) - 1)
+    for i in range(len(p) - 1):
+        print "{} to {}; {:.2f} LY".format(p[i], p[i + 1], dist(data[p[i]], data[p[i + 1]]))
+    print "Total Distance: {:.2f} LY".format(shortestdist)
+
+
+data = {}
+starDists = {}
+count1 = None
+count2 = None
+for line in fileinput.input():
+    line = line.rstrip('\n')
+    if count1 is None:
+        count1 = int(line)
+        continue
+    if count1 > 0:
+        (name, x, y, z) = process(line)
+        data[name] = (x, y, z)
+        count1 = count1 - 1
+        continue
+    for n in data: # calculate all distances once.
+        lengths={}
+        for n2 in data:
+            lengths[n2] = dist(data[n], data[n2])
+        starDists[n] = lengths
+    if count2 is None:
+        count2 = int(line)
+        continue
+    if count2 > 0:
+        journey(line, data)
+        sys.stdout.write("\n")
+        count2 = count2 - 1

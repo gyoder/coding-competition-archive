@@ -1,0 +1,17 @@
+with open( "prob09.txt", 'r') as f:
+    for line in f:
+        l, w, h = [int(k) for k in line.strip().split()]
+        if l:
+            total = l*w*h
+            colored = l*h*2 + (h-2)*(w-2)*2 + (l)*(w-2)*2
+            uncolored = total - colored
+
+            if colored == uncolored:
+                print 'A {}x{}x{} block is PERFECT'.format(l,w,h)
+
+            if colored < uncolored:
+                print 'A {}x{}x{} block is LESS than perfect'.format(l,w,h)
+
+            if colored > uncolored:
+                print 'A {}x{}x{} block is MORE than perfect'.format(l,w,h)
+

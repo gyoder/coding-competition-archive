@@ -1,0 +1,78 @@
+#/usr/bin/env python
+
+import collections
+import fileinput
+
+
+def analyze(grid, rows, columns):
+    extragrid = [[0 for c in range(columns)] for r in range(rows)]
+
+    for r in range(rows):
+        replace = False
+        for i in [0, 1]:
+            state = 0
+            for c in range(columns):
+                if state == 0:
+                    if grid[r][c] != ' ':
+                        state = 1
+                elif state == 1:
+                    if grid[r][c] == ' ':
+                        state = 2
+                        if replace:
+                            extragrid[r][c] = 1
+                elif state == 2:
+                    if grid[r][c] != ' ':
+                        state = 3
+                    else:
+                        if replace:
+                            extragrid[r][c] = 1
+            if state == 3:
+                replace = True
+
+    direction = collections.deque([(0, -1), (-1, 0), (0, 1), (1, 0)])
+
+    for r in range(1, rows - 1):
+        for c in range(1, columns - 1):
+            found = False
+            for i in range(4):
+                if ((not extragrid[r][c]) and
+                    (not extragrid[r + direction[0][0]][c + direction[0][1]]) and
+                    (extragrid[r + direction[1][0]][c + direction[1][1]]) and
+                    (extragrid[r + direction[2][0]][c + direction[2][1]]) and
+                    (not extragrid[r + direction[3][0]][c + direction[3][1]])):
+
+                    found = True
+                    break
+
+                direction.rotate()
+            if not found:
+                continue
+
+            rr = r
+            cc = c
+
+            result = ""
+            while not extragrid[rr][cc]:
+                if grid[rr][cc] == ' ':
+                    break
+                result += grid[rr][cc]
+                extragrid[rr][cc] = 1
+                if not extragrid[rr + direction[1][0]][cc + direction[1][1]]:
+                    direction.rotate(-1)
+                rr = rr + direction[0][0]
+                cc = cc + direction[0][1]
+            return result
+
+
+rows = None
+columns = None
+count = 0
+alllines = []
+for line in fileinput.input():
+    if not rows:
+        (rows, columns) = map(int, line.split())
+        continue
+    alllines.append(collections.deque(line.rstrip('\n')))
+    count += 1
+
+print analyze(alllines, rows, columns)

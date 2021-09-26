@@ -1,0 +1,192 @@
+40
+4 | $
+"Colon :"
+Comma , Left Brace [ 123
+Less Than < VWX$$Hashtag # ABC$|Right Bracket }|Tilde ~|
+vwx|Backslash \|Pipe $| GHI stu|Right Bracket }$|Colon : Right Bracket }|Greater Than > Hashtag #$$DEF|"Right Bracket }$"Equals =$"Grave `"
+5 | %
+Single Quote '|MNO
+VWX%|stu%%Single Quote '|Caret ^%|Asterisk *%|123|Exclamation !%|Grave `|Hashtag #%|pqr%%STU%|Greater Than >%|Plus +|"Comma , mno%%DEF%%STU"|
+Equals =|Hashtag #|Slash /%%Period .%|pqr%|yz|YZ%|Left Parenthesis (%|Tilde ~|Left Bracket {%|Dollar $ Right Parenthesis ) DEF%%Left Parenthesis (|"Left Bracket {%"Ampersand &%%Plus +%"Dollar $%"123"
+Right Bracket }
+Hashtag #|Comma ,%%PQR%|Equals =%|Semicolon ;|Asterisk * At @||def%%def%%Colon :
+4 ! &
+Left Parenthesis ( Question ?
+Caret ^&!Tilde ~!Tilde ~
+!YZ Comma , 789
+!At @!!Single Quote '&!Right Brace ] Single Quote '!VWX&!PQR!456&&Slash / YZ Left Parenthesis (&!Percent %!Grave `
+5 ^ $
+Left Parenthesis (^Percent % Tilde ~^^Semicolon ;^YZ^Asterisk *^Greater Than >$$Pipe | Left Parenthesis ($^ghi Pipe |
+Less Than <^^Colon : mno Ampersand &
+"Grave `"^Comma , YZ$^Period .^MNO$$JKL^Grave ` STU^Hashtag #$^Exclamation !$^YZ$$YZ
+^^Greater Than > Hashtag # Backslash \$$Greater Than > Greater Than >^Exclamation ! 789
+Hashtag #$^yz^Plus +
+4 : &
+456&:Slash / Left Parenthesis (:YZ&:Left Bracket {&:Dollar $:yz Period .
+stu&&Asterisk *:Ampersand &&:ABC&:Right Brace ]
+:Comma ,&:mno:Percent %&:Underscore _&:JKL:jkl PQR PQR Semicolon ;:abc
+Caret ^ Backslash \&:Pipe |:123&:Grave ` Semicolon ;&:vwx::789:MNO&&Ampersand && Question ?:abc&:vwx Slash /
+5 | /
+Caret ^|stu//Dash -/|Pipe /|/|Single Quote '//STU|
+GHI/|Exclamation !|Question ?/|mno/|PQR//Colon :
+Caret ^//DEF/|Plus + Percent %|yz//Pipe /|/|Slash ///|stu
+Underscore _/|Right Parenthesis )/|Single Quote ' Left Parenthesis (/|ABC|JKL/|Right Bracket }|Less Than < DEF/|Right Brace ]|Colon ://GHI//Caret ^/|GHI|Underscore _/|GHI DEF Ampersand &//Backslash \|Semicolon ;
+VWX Semicolon ;|Dollar $//Semicolon ;|abc//Ampersand &|abc//mno//Left Brace [/|ABC|"Left Brace [//JKL"
+5 ! \
+Caret ^\!789\\Dollar $\!pqr Left Parenthesis (!"def Grave `"!Left Brace [\!Asterisk * 123\\MNO!!Plus +\!STU\\Question ? Backslash \\\\Comma ,!GHI ghi Hashtag #
+Question ? Single Quote ' def!!"vwx\"Period . MNO\\def"
+!DEF VWX\!Slash /\!Percent % stu!
+At @ Tilde ~\!Dash -\\abc!Right Bracket }\\mno\!123\!Dollar $!Dollar $!stu\!stu!pqr\!Tilde ~\\stu\!ABC!abc!Single Quote '\!DEF
+Right Brace ]\!MNO\\Asterisk *\!Comma ,!Semicolon ; YZ\!YZ!STU\!Exclamation \! Question ?\\GHI Plus +!Plus +\\yz Right Brace ]\\pqr!stu\\Right Brace ] vwx\!456!pqr\!vwx
+3 , &
+Equals =,DEF&&ghi,,,Left Parenthesis (&,Less Than <,,Comma &,
+
+At @&&PQR&&Pipe | Right Bracket },GHI,Equals =,Grave `&,Hashtag #&,Hashtag #&,ABC&&Plus +,Question ?&,Percent %&&Period .
+2 ^ %
+^^DEF^abc%%Hashtag # 789 Comma ,%%Asterisk *^Slash /%%123%%Left Bracket {%%Less Than < STU
+"DEF%"YZ"
+5 | &
+"Ampersand &&&&abc"|789&|Less Than < Grave `&|GHI&|Grave `|Greater Than > At @&|456&&Left Parenthesis (&|Slash /|123&|vwx Equals =|Tilde ~ Right Bracket }&|Comma ,
+Less Than <&|Caret ^&&Asterisk *|Period .&|stu&|Pipe &||Right Bracket }&|Greater Than >|
+yz|Left Bracket {&|ghi&|vwx|PQR&&Backslash \|JKL&&Exclamation !&|Slash / Semicolon ;
+"ABC&&pqr&&GHI&"Question ?"|Right Parenthesis )&|Right Bracket } VWX&|Dash -
+Dash -&&Grave ` DEF JKL||Left Parenthesis (&|Percent % Backslash \ DEF Comma ,|STU&|Semicolon ;&&Hashtag #&|YZ|Left Bracket {&&mno&&Pipe &| Caret ^&|vwx
+3 ; &
+VWX&;Equals =&;YZ&&Comma ,&;Single Quote ';;ABC&;Left Parenthesis (&&VWX&;yz
+Dash -&;YZ&&Single Quote '&;def&&Backslash \;VWX ghi&&Exclamation !&;pqr;456&&Dash -;;GHI&;abc;;DEF pqr&&DEF
+DEF Colon :;
+5 , $
+Percent % Equals =,GHI,Left Bracket {$,DEF$,PQR$$ghi Grave `,ghi$,123 Comma $,,Backslash \ Backslash \$,Left Brace [$,YZ,Single Quote '$,Underscore _$,GHI
+abc Right Bracket }$$MNO$$Slash /,DEF$$stu Greater Than >$,vwx
+Exclamation !$$Tilde ~$$Comma $,,123 Right Parenthesis )$,Greater Than >,At @ Right Brace ]$,STU
+789$,vwx mno,Less Than <$,GHI$,Question ?,Dollar $$,"At @$"ghi$"pqr$"Question ?",
+789,Pipe |$$Right Parenthesis ) Dollar $$,,VWX$$Grave `$,Ampersand &
+5 # &
+Right Bracket }&&STU#Semicolon ; Single Quote '&#Exclamation ! Slash /#Dash - mno&&jkl&#Dollar $###Comma ,#Percent %&#PQR&#Equals =
+def&#789&#Semicolon ;#Period . VWX mno&&MNO&&def
+Percent % DEF#Pipe | Slash /&#mno&&pqr&&Less Than <
+Left Brace [#Ampersand &&&#Tilde ~&#789 Exclamation !&#VWX
+789 Grave `
+4 | &
+Right Bracket }|Grave ` YZ&|Hashtag #|mno&|PQR&&Backslash \ GHI
+ABC&&Underscore _|||yz&|MNO&&MNO Single Quote '&|Ampersand &&
+At @&&Left Parenthesis (|"Left Parenthesis ( Slash /"|Less Than < Tilde ~&&yz&&Grave `&|mno|YZ&|yz&|123&&ABC|abc&&Hashtag #&&MNO&&Grave `
+Caret ^&&Grave `&&Right Bracket }&&pqr&&jkl||PQR&&Colon :&&Asterisk *&&Semicolon ;&|Ampersand &&|
+5 + \
+Single Quote '\+At @\\Equals =+Left Parenthesis (
+Tilde ~ MNO+Caret ^\+pqr\\123+DEF\\Hashtag #\+Slash / Right Bracket }+vwx YZ MNO\+Percent %++Ampersand &+""
+Period .\+mno\+yz\+abc Question ?+"vwx"+Asterisk *\\Underscore _\+MNO Percent % Left Bracket {+Less Than <\\Less Than <\\PQR Left Brace [\+Period .+Dash - Backslash \\\\jkl Single Quote '\\Tilde ~+""+
+++jkl+"Asterisk *\"Dash -\\Semicolon ;\\Dollar $\"MNO"+Right Brace ]+Left Bracket { Question ? Asterisk *\\Less Than <\+789+At @\\Pipe |
+Exclamation !\\Period . YZ\\456 Colon :+Dash -+Dollar $\\Period .\\GHI+Single Quote '+YZ Semicolon ; ghi+123 Grave `
+4 : &
+Exclamation !&:ghi:JKL:jkl&:jkl::def
+DEF&&Slash /&&Equals = ABC:Less Than <&:pqr&&Equals =&&Left Brace [:"Hashtag #&"JKL&"JKL Ampersand &&&&Single Quote '":vwx&:Right Bracket }:JKL&:Greater Than > Colon &: Underscore _&:def
+ghi&:At @ VWX:Ampersand &&&&JKL
+DEF:Semicolon ;&&GHI&:Exclamation !:
+5 | &
+DEF Left Brace [ Plus +&&123&&Pipe &||Percent %
+At @ Slash /&&yz&&At @|VWX Slash /|123||abc|
+Exclamation ! 789 Tilde ~|Ampersand &&|||abc&&At @&|Dash -&|Equals =
+VWX JKL&&Slash /|Question ?||DEF|YZ VWX|
+Right Brace ] Plus +|Dash -&|yz Colon :||ABC&&DEF&&JKL|pqr|"Right Parenthesis )&"PQR&&mno&&MNO&"123"
+4 ; /
+;"YZ//Backslash \";
+"JKL";def/;Greater Than >/;Plus +//stu/;Plus +;;789/;Right Bracket } Hashtag #;PQR/;Caret ^/;Left Parenthesis ( yz;vwx//Pipe | Slash // YZ/;Backslash \
+Right Parenthesis ) Caret ^;Plus +/;Ampersand &/;abc;Exclamation !;Exclamation !/;Dash -;
+"STU//Slash // YZ pqr/"def";;Right Brace ]/;MNO/;Dollar $/;vwx;Left Parenthesis ( PQR/;abc/;pqr//Left Bracket {
+5 + %
+Slash /+Dollar $+Colon :%%Comma , PQR Right Brace ]+Comma ,%+789%%Single Quote '%+Period .+Single Quote '%%vwx
+
+def+Asterisk *++Question ?%+Hashtag #%%mno Percent %% 789+Tilde ~%+Grave `%+abc%+Percent %%
+mno%%Pipe |++Period .+""+
+Exclamation !
+5 | %
+Right Brace ]%%Greater Than >%|789%%Pipe %||Asterisk *||GHI%|Plus +|def|Dollar $
+Hashtag #%%456 Period .%|Exclamation !%%Greater Than >|jkl
+"stu Caret ^ 123 Single Quote '%%GHI"||Slash / pqr%%At @ Left Brace [|STU%%Question ? yz%|DEF||Dash - At @|""
+Comma , Backslash \|pqr|Semicolon ;|Colon :%|vwx Colon : jkl%|Grave `|456
+Period . stu
+4 ! %
+!Dollar $ Exclamation %!!!Pipe |%!456 VWX%%abc!Question ?%%Comma , Left Parenthesis (%%Grave ` Left Brace [!Right Parenthesis )%!GHI%!ghi%!Plus +%%Question ?!Comma , Equals =%!Plus +
+Less Than <%%Comma ,%%Colon :!"Colon : Right Bracket } mno Right Parenthesis )%"Asterisk *"
+ABC%!Single Quote '!vwx%!pqr!!VWX ABC Less Than <%!Equals =%!vwx!"Left Bracket {%"Underscore _%"JKL%"MNO Left Bracket {"!Period . Greater Than > yz%!DEF%!Hashtag #!Underscore _%%123 jkl%!Equals =
+Semicolon ; Right Bracket }!JKL Tilde ~%%stu%!abc Grave `!Left Bracket {%!PQR%%ABC Caret ^%!Colon :!""
+2 ! $
+Dollar $$$$DEF$!yz$$pqr
+Comma ,!123!Question ?$$yz
+4 : /
+:vwx Hashtag #:def/:123:YZ
+Single Quote '::Period ./:Percent %/:Grave `
+Slash //
+JKL:
+2 + %
+Right Brace ]%+vwx yz Less Than <+Underscore _
+Dollar $%%MNO%+Tilde ~%+Slash /+DEF vwx Question ?%%Question ?+789%+Question ?%%Percent %%+pqr%+Exclamation !%+Right Parenthesis )%%JKL+stu%+456%+ghi%+Caret ^ Hashtag #
+4 : $
+Dash - MNO$:Right Bracket }$:ghi:Asterisk *$:Question ?:Grave `:MNO:"abc Right Bracket } Exclamation !":STU$:vwx
+Grave `:Right Parenthesis )$:abc$:Dollar $$$$At @$:Tilde ~:Slash / Colon $::Percent %:Left Bracket { At @$:abc abc$$Slash /:GHI
+:jkl$$Backslash \:ghi$:VWX Colon $:$:yz Question ?:"Single Quote ' Equals =$"abc"
+::Right Brace ]$:Hashtag # 456$:At @:Single Quote '$:Dash -::ghi$$def$:JKL$:DEF PQR:123 PQR
+4 + /
+"Asterisk * mno/"MNO/"Less Than <"
++PQR++Left Parenthesis (
+Percent %//Right Brace ]//ghi//def//Left Parenthesis (
+vwx//pqr Pipe |/+Percent % Left Parenthesis (+Hashtag #//123//GHI+789 Caret ^ 456+
+3 # \
+Hashtag \# ghi\#Slash /
+Question ?\\def Dash -\\Equals = VWX#DEF\\Underscore _\\MNO\#Left Parenthesis (#"abc vwx"#def 789##jkl#Equals = Plus +\\At @\\VWX\#ABC
+Greater Than >#Right Bracket } jkl Asterisk *\#789#""##pqr At @\\Hashtag \#\\Backslash \\#Dollar $ abc\\Left Parenthesis (
+2 ^ %
+Semicolon ;%%Semicolon ; Caret %^^abc%%Single Quote ' def%^Left Brace [
+ABC%^Period .%%Plus +
+3 : &
+jkl&:Underscore _&:GHI&&At @:YZ:DEF Single Quote ':"":Question ?&:Underscore _&:Ampersand &&
+Left Parenthesis (&:Dollar $&:Less Than <
+Dash -:ghi Question ? Slash /:123&:Percent %
+4 : $
+Right Bracket }$$Left Bracket {$$456$:Right Bracket }$:mno:
+"123 Ampersand &$$Left Bracket { Left Parenthesis ($"mno":::"Hashtag #"
+:Comma ,$:Plus + abc$$Comma , Single Quote ':Right Bracket }$$ABC$:At @ Right Parenthesis )
+:Underscore _$$Exclamation ! Ampersand &$:stu:Period .:Right Bracket }$$Pipe | GHI$$pqr:Greater Than >:PQR$:At @$$ABC At @
+2 + /
+mno Equals = Percent %+Single Quote '+Dash -/+def/+Ampersand &+Question ? Semicolon ;/+Grave `+Ampersand & Equals =//Exclamation !/+VWX
+Colon :/+Hashtag # Question ?//abc+Semicolon ; DEF Comma ,//Period .
+3 , \
+"yz\"Exclamation !\"STU Tilde ~ PQR",Left Parenthesis (\\Dash -\,Plus +\,JKL,Dash -\,pqr\\Hashtag #\,Question ?,,Right Brace ]\,Percent % DEF\\Period . Question ?,,
+DEF\\MNO,,YZ Period . Ampersand &\\VWX\\Asterisk *,Left Parenthesis (\,ABC\,mno Left Brace [,DEF\\Dash -\\Left Brace [\,ghi Grave `,Grave ` Left Brace [ Tilde ~,pqr\\Period .\\Pipe |\,Semicolon ;
+ghi\,Equals =\,789,Left Bracket {,"Single Quote '\\Less Than < Ampersand &"
+5 + \
+"Ampersand &"+MNO\\GHI Slash /\+GHI\\Asterisk *
+++Slash /\\Colon :\+yz+"Single Quote '\"mno\\pqr JKL Left Parenthesis ("+def\\Left Brace [\+Semicolon ;\+YZ Right Parenthesis )+"Percent %"
+Period .\+stu\\STU\\Ampersand &+STU\\Exclamation ! DEF\+vwx+Grave `\+pqr\+abc\+Caret ^\\Right Brace ]+789 Left Bracket {+"Single Quote '"+Left Parenthesis (\\ABC\+PQR\\Right Parenthesis )\\Underscore _+Less Than <\+Backslash \\\+At @\\Dollar $\+GHI
+Slash /\\mno\+MNO+Equals =\+Pipe |\+Left Parenthesis ( Slash /
+Asterisk *+Equals =\+Pipe |\\DEF\+def+Right Brace ]\\Pipe |\\DEF\+789 Plus \++Colon :\+Exclamation !+Left Bracket {\+Question ?\+Caret ^\+Ampersand &\+Hashtag #
+2 ; %
+Equals =%;jkl%;At @%;yz;456%%VWX%%YZ;;Backslash \;Equals =%;def Right Bracket };Semicolon %;%;Right Bracket } Colon : abc
+Period .%;GHI;Question ?%;Question ? Comma ,%%Period .;Right Bracket }%%Asterisk *;Left Bracket {
+3 : /
+
+"JKL//Period .//Slash ///"Greater Than >/"abc":abc ABC/:Less Than < JKL//Dollar $:JKL ghi ghi:Semicolon ; DEF:
+jkl/:Right Parenthesis ):456/:Less Than <:vwx def//Percent % def/:Dash -:Right Brace ] VWX
+3 + /
++Single Quote '/+Right Brace ]//Exclamation !+Underscore _/+Tilde ~/+Right Bracket }+Comma ,/+Question ?//Less Than < PQR/+yz+JKL//MNO//Exclamation !+PQR jkl/+Less Than </+vwx/+DEF
+Caret ^+GHI//Tilde ~/+Exclamation ! Percent %+Right Parenthesis )//Question ? Equals =
++At @ Single Quote ' Question ?//Equals =+vwx/+Less Than < yz//ghi+Left Brace [//Percent %+++
+4 ^ \
+Pipe | 789 456\^stu^Period .\^Less Than < 456 Comma ,^GHI\\Left Bracket {\\Hashtag #\^Grave ` VWX^123 pqr vwx^^Pipe |\\Comma ,\^456^Colon :\\YZ Left Parenthesis (\^Right Parenthesis )\^Colon :
+Equals =
+Dollar $\\yz\\Backslash \\^"DEF\"Hashtag # Dollar $"^^Equals =\\stu^^Right Brace ]\^Percent %\\Percent %^ghi\\Backslash \\\\jkl
+Hashtag #\^ABC\^Left Bracket { stu^stu MNO\\456^^Ampersand &\^Less Than <\^Grave `\\Left Bracket {^
+4 , \
+Plus +,""
+"",VWX\,Right Parenthesis )\,GHI\,stu\\Backslash \\,Left Parenthesis (\,Left Brace [,Percent %,PQR\\Right Brace ] Dash - ABC,""
+Semicolon ;\\YZ\\GHI 456,mno Period .
+,yz
+3 ^ &
+PQR Less Than <&&Greater Than > Greater Than >^"Caret ^&&Caret ^"
+PQR&^Right Parenthesis )&^Semicolon ;&&Backslash \^"yz Underscore _&"At @"^ghi^PQR&^Question ? 456 jkl^Tilde ~^Question ?^Dollar $
+DEF&&Semicolon ;&&Left Brace [ Caret &^
+3 , /
+"abc abc",YZ
+Colon ://Single Quote '//At @/,789,,""
+Pipe | STU/,Backslash \//At @,,456//Backslash \//Left Brace [,PQR,ghi/,JKL/,Left Bracket {/,Slash ////Comma /,,mno,"Less Than <"

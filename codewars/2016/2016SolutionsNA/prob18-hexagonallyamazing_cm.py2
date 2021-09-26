@@ -1,0 +1,149 @@
+#/usr/bin/env python
+
+
+import collections
+import fileinput
+import string
+
+
+srow = None
+scol = None
+erow = None
+ecol = None
+links = {}
+
+
+def solve():
+    global srow
+    global scol
+    global erow
+    global ecol
+    global links
+
+    done = {}
+
+    q = collections.deque([(srow, scol)])
+    done[(srow, scol)] = None
+
+    while q:
+        (r, c) = q.popleft()
+        if (r == erow) and (c == ecol):
+            path = collections.deque()
+            pair = (r, c)
+            while pair:
+                (r, c) = pair
+                path.appendleft((r, c))
+                pair = done[(r, c)]
+            return path
+        for (rr, cc) in links[(r, c)]:
+            if (rr, cc) not in done:
+                done[(rr, cc)] = (r, c)
+                q.append((rr, cc))
+
+
+def makearc(row1, col1, row2, col2):
+    global links
+    if (row1, col1) not in links:
+        links[(row1, col1)] = {}
+    links[(row1, col1)][(row2, col2)] = True
+
+
+def makelink(row1, col1, row2, col2):
+    makearc(row1, col1, row2, col2)
+    makearc(row2, col2, row1, col1)
+
+
+def process(line, count, rows, columns):
+    global srow
+    global scol
+    global erow
+    global ecol
+
+    line = line.rstrip('\n')
+    origline = list(line)
+    line = collections.deque(origline)
+
+    row = count / 2
+    phase = count % 4
+    if phase == 2:
+        line.popleft()
+        line.popleft()
+
+    if (phase == 0) or (phase == 2):
+        col = 0
+        while line:
+            node = line.popleft()
+            if line:
+                link = line.popleft()
+            else:
+                link = ' '
+            if line:
+                line.popleft()
+            if line:
+                line.popleft()
+            if node == '@':
+                srow = row
+                scol = col
+            if node == '?':
+                erow = row
+                ecol = col
+            if link != ' ':
+                makelink(row, col, row, col + 1)
+            col += 1
+
+    elif (phase == 1) or (phase == 3):
+        if line:
+            line.popleft()
+        col = 0
+        while line:
+            link1 = line.popleft()
+            if line:
+                line.popleft()
+            if line:
+                link2 = line.popleft()
+            else:
+                link2 = ' '
+            if line:
+                line.popleft()
+            if link1 != ' ':
+                makelink(row, col, row + 1, col)
+            if link2 != ' ':
+                if phase == 1:
+                    makelink(row, col + 1, row + 1, col)
+                else:
+                    makelink(row, col, row + 1, col + 1)
+            col += 1
+
+    return origline
+
+
+rows = None
+columns = None
+count = 0
+alllines = []
+for line in fileinput.input():
+    if not rows:
+        (rows, columns) = map(int, line.split())
+        continue
+    alllines.append(process(line, count, rows, columns))
+    count += 1
+
+path = solve()
+
+path.popleft()
+path.pop()
+
+count = 0
+for (r, c) in path:
+    if r % 2:
+        shift = 2
+    else:
+        shift = 0
+    alllines[r * 2][c * 4 + shift] = string.ascii_uppercase[count]
+    count += 1
+
+for l in alllines:
+    out = ""
+    for c in l:
+        out += c
+    print out

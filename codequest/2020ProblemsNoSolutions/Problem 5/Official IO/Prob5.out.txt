@@ -1,0 +1,601 @@
+Record 1, Field 1: Colon :
+Record 2, Field 1: Comma , Left Brace [ 123
+Record 3, Field 1: Less Than < VWX$Hashtag # ABC|Right Bracket }
+Record 3, Field 2: Tilde ~
+Record 3, Field 3: <BLANK>
+Record 4, Field 1: vwx
+Record 4, Field 2: Backslash \
+Record 4, Field 3: Pipe | GHI stu
+Record 4, Field 4: Right Bracket }|Colon : Right Bracket }
+Record 4, Field 5: Greater Than > Hashtag #$DEF
+Record 4, Field 6: Right Bracket }"Equals ="Grave `
+Record 1, Field 1: Single Quote '
+Record 1, Field 2: MNO
+Record 2, Field 1: VWX|stu%Single Quote '
+Record 2, Field 2: Caret ^|Asterisk *|123
+Record 2, Field 3: Exclamation !|Grave `
+Record 2, Field 4: Hashtag #|pqr%STU|Greater Than >|Plus +
+Record 2, Field 5: Comma , mno%DEF%STU
+Record 2, Field 6: <BLANK>
+Record 3, Field 1: Equals =
+Record 3, Field 2: Hashtag #
+Record 3, Field 3: Slash /%Period .|pqr|yz
+Record 3, Field 4: YZ|Left Parenthesis (|Tilde ~
+Record 3, Field 5: Left Bracket {|Dollar $ Right Parenthesis ) DEF%Left Parenthesis (
+Record 3, Field 6: Left Bracket {"Ampersand &%Plus +"Dollar $"123
+Record 4, Field 1: Right Bracket }
+Record 5, Field 1: Hashtag #
+Record 5, Field 2: Comma ,%PQR|Equals =|Semicolon ;
+Record 5, Field 3: Asterisk * At @
+Record 5, Field 4: <BLANK>
+Record 5, Field 5: def%def%Colon :
+Record 1, Field 1: Left Parenthesis ( Question ?
+Record 2, Field 1: Caret ^!Tilde ~
+Record 2, Field 2: Tilde ~
+Record 3, Field 1: <BLANK>
+Record 3, Field 2: YZ Comma , 789
+Record 4, Field 1: <BLANK>
+Record 4, Field 2: At @
+Record 4, Field 3: <BLANK>
+Record 4, Field 4: Single Quote '!Right Brace ] Single Quote '
+Record 4, Field 5: VWX!PQR
+Record 4, Field 6: 456&Slash / YZ Left Parenthesis (!Percent %
+Record 4, Field 7: Grave `
+Record 1, Field 1: Left Parenthesis (
+Record 1, Field 2: Percent % Tilde ~
+Record 1, Field 3: <BLANK>
+Record 1, Field 4: Semicolon ;
+Record 1, Field 5: YZ
+Record 1, Field 6: Asterisk *
+Record 1, Field 7: Greater Than >$Pipe | Left Parenthesis (^ghi Pipe |
+Record 2, Field 1: Less Than <
+Record 2, Field 2: <BLANK>
+Record 2, Field 3: Colon : mno Ampersand &
+Record 3, Field 1: Grave `
+Record 3, Field 2: Comma , YZ^Period .
+Record 3, Field 3: MNO$JKL
+Record 3, Field 4: Grave ` STU
+Record 3, Field 5: Hashtag #^Exclamation !^YZ$YZ
+Record 4, Field 1: <BLANK>
+Record 4, Field 2: <BLANK>
+Record 4, Field 3: Greater Than > Hashtag # Backslash \$Greater Than > Greater Than >
+Record 4, Field 4: Exclamation ! 789
+Record 5, Field 1: Hashtag #^yz
+Record 5, Field 2: Plus +
+Record 1, Field 1: 456:Slash / Left Parenthesis (
+Record 1, Field 2: YZ:Left Bracket {:Dollar $
+Record 1, Field 3: yz Period .
+Record 2, Field 1: stu&Asterisk *
+Record 2, Field 2: Ampersand &
+Record 2, Field 3: ABC:Right Brace ]
+Record 3, Field 1: <BLANK>
+Record 3, Field 2: Comma ,:mno
+Record 3, Field 3: Percent %:Underscore _:JKL
+Record 3, Field 4: jkl PQR PQR Semicolon ;
+Record 3, Field 5: abc
+Record 4, Field 1: Caret ^ Backslash \:Pipe |
+Record 4, Field 2: 123:Grave ` Semicolon ;:vwx
+Record 4, Field 3: <BLANK>
+Record 4, Field 4: 789
+Record 4, Field 5: MNO&Ampersand & Question ?
+Record 4, Field 6: abc:vwx Slash /
+Record 1, Field 1: Caret ^
+Record 1, Field 2: stu/Dash -|Pipe ||Single Quote '/STU
+Record 1, Field 3: <BLANK>
+Record 2, Field 1: GHI|Exclamation !
+Record 2, Field 2: Question ?|mno|PQR/Colon :
+Record 3, Field 1: Caret ^/DEF|Plus + Percent %
+Record 3, Field 2: yz/Pipe ||Slash /|stu
+Record 4, Field 1: Underscore _|Right Parenthesis )|Single Quote ' Left Parenthesis (|ABC
+Record 4, Field 2: JKL|Right Bracket }
+Record 4, Field 3: Less Than < DEF|Right Brace ]
+Record 4, Field 4: Colon :/GHI/Caret ^|GHI
+Record 4, Field 5: Underscore _|GHI DEF Ampersand &/Backslash \
+Record 4, Field 6: Semicolon ;
+Record 5, Field 1: VWX Semicolon ;
+Record 5, Field 2: Dollar $/Semicolon ;
+Record 5, Field 3: abc/Ampersand &
+Record 5, Field 4: abc/mno/Left Brace [|ABC
+Record 5, Field 5: Left Brace [/JKL
+Record 1, Field 1: Caret ^!789\Dollar $!pqr Left Parenthesis (
+Record 1, Field 2: def Grave `
+Record 1, Field 3: Left Brace [!Asterisk * 123\MNO
+Record 1, Field 4: <BLANK>
+Record 1, Field 5: Plus +!STU\Question ? Backslash \\Comma ,
+Record 1, Field 6: GHI ghi Hashtag #
+Record 2, Field 1: Question ? Single Quote ' def
+Record 2, Field 2: <BLANK>
+Record 2, Field 3: vwx"Period . MNO\def
+Record 3, Field 1: <BLANK>
+Record 3, Field 2: DEF VWX!Slash /!Percent % stu
+Record 3, Field 3: <BLANK>
+Record 4, Field 1: At @ Tilde ~!Dash -\abc
+Record 4, Field 2: Right Bracket }\mno!123!Dollar $
+Record 4, Field 3: Dollar $
+Record 4, Field 4: stu!stu
+Record 4, Field 5: pqr!Tilde ~\stu!ABC
+Record 4, Field 6: abc
+Record 4, Field 7: Single Quote '!DEF
+Record 5, Field 1: Right Brace ]!MNO\Asterisk *!Comma ,
+Record 5, Field 2: Semicolon ; YZ!YZ
+Record 5, Field 3: STU!Exclamation ! Question ?\GHI Plus +
+Record 5, Field 4: Plus +\yz Right Brace ]\pqr
+Record 5, Field 5: stu\Right Brace ] vwx!456
+Record 5, Field 6: pqr!vwx
+Record 1, Field 1: Equals =
+Record 1, Field 2: DEF&ghi
+Record 1, Field 3: <BLANK>
+Record 1, Field 4: <BLANK>
+Record 1, Field 5: Left Parenthesis (,Less Than <
+Record 1, Field 6: <BLANK>
+Record 1, Field 7: Comma ,
+Record 2, Field 1: <BLANK>
+Record 3, Field 1: At @&PQR&Pipe | Right Bracket }
+Record 3, Field 2: GHI
+Record 3, Field 3: Equals =
+Record 3, Field 4: Grave `,Hashtag #,Hashtag #,ABC&Plus +
+Record 3, Field 5: Question ?,Percent %&Period .
+Record 1, Field 1: <BLANK>
+Record 1, Field 2: <BLANK>
+Record 1, Field 3: DEF
+Record 1, Field 4: abc%Hashtag # 789 Comma ,%Asterisk *
+Record 1, Field 5: Slash /%123%Left Bracket {%Less Than < STU
+Record 2, Field 1: DEF"YZ
+Record 1, Field 1: Ampersand &&abc
+Record 1, Field 2: 789|Less Than < Grave `|GHI|Grave `
+Record 1, Field 3: Greater Than > At @|456&Left Parenthesis (|Slash /
+Record 1, Field 4: 123|vwx Equals =
+Record 1, Field 5: Tilde ~ Right Bracket }|Comma ,
+Record 2, Field 1: Less Than <|Caret ^&Asterisk *
+Record 2, Field 2: Period .|stu|Pipe |
+Record 2, Field 3: Right Bracket }|Greater Than >
+Record 2, Field 4: <BLANK>
+Record 3, Field 1: yz
+Record 3, Field 2: Left Bracket {|ghi|vwx
+Record 3, Field 3: PQR&Backslash \
+Record 3, Field 4: JKL&Exclamation !|Slash / Semicolon ;
+Record 4, Field 1: ABC&pqr&GHI"Question ?
+Record 4, Field 2: Right Parenthesis )|Right Bracket } VWX|Dash -
+Record 5, Field 1: Dash -&Grave ` DEF JKL
+Record 5, Field 2: <BLANK>
+Record 5, Field 3: Left Parenthesis (|Percent % Backslash \ DEF Comma ,
+Record 5, Field 4: STU|Semicolon ;&Hashtag #|YZ
+Record 5, Field 5: Left Bracket {&mno&Pipe | Caret ^|vwx
+Record 1, Field 1: VWX;Equals =;YZ&Comma ,;Single Quote '
+Record 1, Field 2: <BLANK>
+Record 1, Field 3: ABC;Left Parenthesis (&VWX;yz
+Record 2, Field 1: Dash -;YZ&Single Quote ';def&Backslash \
+Record 2, Field 2: VWX ghi&Exclamation !;pqr
+Record 2, Field 3: 456&Dash -
+Record 2, Field 4: <BLANK>
+Record 2, Field 5: GHI;abc
+Record 2, Field 6: <BLANK>
+Record 2, Field 7: DEF pqr&DEF
+Record 3, Field 1: DEF Colon :
+Record 3, Field 2: <BLANK>
+Record 1, Field 1: Percent % Equals =
+Record 1, Field 2: GHI
+Record 1, Field 3: Left Bracket {,DEF,PQR$ghi Grave `
+Record 1, Field 4: ghi,123 Comma ,
+Record 1, Field 5: Backslash \ Backslash \,Left Brace [,YZ
+Record 1, Field 6: Single Quote ',Underscore _,GHI
+Record 2, Field 1: abc Right Bracket }$MNO$Slash /
+Record 2, Field 2: DEF$stu Greater Than >,vwx
+Record 3, Field 1: Exclamation !$Tilde ~$Comma ,
+Record 3, Field 2: 123 Right Parenthesis ),Greater Than >
+Record 3, Field 3: At @ Right Brace ],STU
+Record 4, Field 1: 789,vwx mno
+Record 4, Field 2: Less Than <,GHI,Question ?
+Record 4, Field 3: Dollar $
+Record 4, Field 4: At @"ghi"pqr"Question ?
+Record 4, Field 5: <BLANK>
+Record 5, Field 1: 789
+Record 5, Field 2: Pipe |$Right Parenthesis ) Dollar $
+Record 5, Field 3: <BLANK>
+Record 5, Field 4: VWX$Grave `,Ampersand &
+Record 1, Field 1: Right Bracket }&STU
+Record 1, Field 2: Semicolon ; Single Quote '#Exclamation ! Slash /
+Record 1, Field 3: Dash - mno&jkl#Dollar $
+Record 1, Field 4: <BLANK>
+Record 1, Field 5: <BLANK>
+Record 1, Field 6: Comma ,
+Record 1, Field 7: Percent %#PQR#Equals =
+Record 2, Field 1: def#789#Semicolon ;
+Record 2, Field 2: Period . VWX mno&MNO&def
+Record 3, Field 1: Percent % DEF
+Record 3, Field 2: Pipe | Slash /#mno&pqr&Less Than <
+Record 4, Field 1: Left Brace [
+Record 4, Field 2: Ampersand &#Tilde ~#789 Exclamation !#VWX
+Record 5, Field 1: 789 Grave `
+Record 1, Field 1: Right Bracket }
+Record 1, Field 2: Grave ` YZ|Hashtag #
+Record 1, Field 3: mno|PQR&Backslash \ GHI
+Record 2, Field 1: ABC&Underscore _
+Record 2, Field 2: <BLANK>
+Record 2, Field 3: <BLANK>
+Record 2, Field 4: yz|MNO&MNO Single Quote '|Ampersand &
+Record 3, Field 1: At @&Left Parenthesis (
+Record 3, Field 2: Left Parenthesis ( Slash /
+Record 3, Field 3: Less Than < Tilde ~&yz&Grave `|mno
+Record 3, Field 4: YZ|yz|123&ABC
+Record 3, Field 5: abc&Hashtag #&MNO&Grave `
+Record 4, Field 1: Caret ^&Grave `&Right Bracket }&pqr&jkl
+Record 4, Field 2: <BLANK>
+Record 4, Field 3: PQR&Colon :&Asterisk *&Semicolon ;|Ampersand &
+Record 4, Field 4: <BLANK>
+Record 1, Field 1: Single Quote '+At @\Equals =
+Record 1, Field 2: Left Parenthesis (
+Record 2, Field 1: Tilde ~ MNO
+Record 2, Field 2: Caret ^+pqr\123
+Record 2, Field 3: DEF\Hashtag #+Slash / Right Bracket }
+Record 2, Field 4: vwx YZ MNO+Percent %
+Record 2, Field 5: <BLANK>
+Record 2, Field 6: Ampersand &
+Record 2, Field 7: <BLANK>
+Record 3, Field 1: Period .+mno+yz+abc Question ?
+Record 3, Field 2: vwx
+Record 3, Field 3: Asterisk *\Underscore _+MNO Percent % Left Bracket {
+Record 3, Field 4: Less Than <\Less Than <\PQR Left Brace [+Period .
+Record 3, Field 5: Dash - Backslash \\jkl Single Quote '\Tilde ~
+Record 3, Field 6: <BLANK>
+Record 3, Field 7: <BLANK>
+Record 4, Field 1: <BLANK>
+Record 4, Field 2: <BLANK>
+Record 4, Field 3: jkl
+Record 4, Field 4: Asterisk *"Dash -\Semicolon ;\Dollar $"MNO
+Record 4, Field 5: Right Brace ]
+Record 4, Field 6: Left Bracket { Question ? Asterisk *\Less Than <+789
+Record 4, Field 7: At @\Pipe |
+Record 5, Field 1: Exclamation !\Period . YZ\456 Colon :
+Record 5, Field 2: Dash -
+Record 5, Field 3: Dollar $\Period .\GHI
+Record 5, Field 4: Single Quote '
+Record 5, Field 5: YZ Semicolon ; ghi
+Record 5, Field 6: 123 Grave `
+Record 1, Field 1: Exclamation !:ghi
+Record 1, Field 2: JKL
+Record 1, Field 3: jkl:jkl
+Record 1, Field 4: <BLANK>
+Record 1, Field 5: def
+Record 2, Field 1: DEF&Slash /&Equals = ABC
+Record 2, Field 2: Less Than <:pqr&Equals =&Left Brace [
+Record 2, Field 3: Hashtag #"JKL"JKL Ampersand &&Single Quote '
+Record 2, Field 4: vwx:Right Bracket }
+Record 2, Field 5: JKL:Greater Than > Colon : Underscore _:def
+Record 3, Field 1: ghi:At @ VWX
+Record 3, Field 2: Ampersand &&JKL
+Record 4, Field 1: DEF
+Record 4, Field 2: Semicolon ;&GHI:Exclamation !
+Record 4, Field 3: <BLANK>
+Record 1, Field 1: DEF Left Brace [ Plus +&123&Pipe |
+Record 1, Field 2: Percent %
+Record 2, Field 1: At @ Slash /&yz&At @
+Record 2, Field 2: VWX Slash /
+Record 2, Field 3: 123
+Record 2, Field 4: <BLANK>
+Record 2, Field 5: abc
+Record 2, Field 6: <BLANK>
+Record 3, Field 1: Exclamation ! 789 Tilde ~
+Record 3, Field 2: Ampersand &
+Record 3, Field 3: <BLANK>
+Record 3, Field 4: <BLANK>
+Record 3, Field 5: abc&At @|Dash -|Equals =
+Record 4, Field 1: VWX JKL&Slash /
+Record 4, Field 2: Question ?
+Record 4, Field 3: <BLANK>
+Record 4, Field 4: DEF
+Record 4, Field 5: YZ VWX
+Record 4, Field 6: <BLANK>
+Record 5, Field 1: Right Brace ] Plus +
+Record 5, Field 2: Dash -|yz Colon :
+Record 5, Field 3: <BLANK>
+Record 5, Field 4: ABC&DEF&JKL
+Record 5, Field 5: pqr
+Record 5, Field 6: Right Parenthesis )"PQR&mno&MNO"123
+Record 1, Field 1: <BLANK>
+Record 1, Field 2: YZ/Backslash \
+Record 1, Field 3: <BLANK>
+Record 2, Field 1: JKL
+Record 2, Field 2: def;Greater Than >;Plus +/stu;Plus +
+Record 2, Field 3: <BLANK>
+Record 2, Field 4: 789;Right Bracket } Hashtag #
+Record 2, Field 5: PQR;Caret ^;Left Parenthesis ( yz
+Record 2, Field 6: vwx/Pipe | Slash / YZ;Backslash \
+Record 3, Field 1: Right Parenthesis ) Caret ^
+Record 3, Field 2: Plus +;Ampersand &;abc
+Record 3, Field 3: Exclamation !
+Record 3, Field 4: Exclamation !;Dash -
+Record 3, Field 5: <BLANK>
+Record 4, Field 1: STU/Slash / YZ pqr"def
+Record 4, Field 2: <BLANK>
+Record 4, Field 3: Right Brace ];MNO;Dollar $;vwx
+Record 4, Field 4: Left Parenthesis ( PQR;abc;pqr/Left Bracket {
+Record 1, Field 1: Slash /
+Record 1, Field 2: Dollar $
+Record 1, Field 3: Colon :%Comma , PQR Right Brace ]
+Record 1, Field 4: Comma ,+789%Single Quote '+Period .
+Record 1, Field 5: Single Quote '%vwx
+Record 2, Field 1: <BLANK>
+Record 3, Field 1: def
+Record 3, Field 2: Asterisk *
+Record 3, Field 3: <BLANK>
+Record 3, Field 4: Question ?+Hashtag #%mno Percent % 789
+Record 3, Field 5: Tilde ~+Grave `+abc+Percent %
+Record 4, Field 1: mno%Pipe |
+Record 4, Field 2: <BLANK>
+Record 4, Field 3: Period .
+Record 4, Field 4: <BLANK>
+Record 4, Field 5: <BLANK>
+Record 5, Field 1: Exclamation !
+Record 1, Field 1: Right Brace ]%Greater Than >|789%Pipe |
+Record 1, Field 2: Asterisk *
+Record 1, Field 3: <BLANK>
+Record 1, Field 4: GHI|Plus +
+Record 1, Field 5: def
+Record 1, Field 6: Dollar $
+Record 2, Field 1: Hashtag #%456 Period .|Exclamation !%Greater Than >
+Record 2, Field 2: jkl
+Record 3, Field 1: stu Caret ^ 123 Single Quote '%GHI
+Record 3, Field 2: <BLANK>
+Record 3, Field 3: Slash / pqr%At @ Left Brace [
+Record 3, Field 4: STU%Question ? yz|DEF
+Record 3, Field 5: <BLANK>
+Record 3, Field 6: Dash - At @
+Record 3, Field 7: <BLANK>
+Record 4, Field 1: Comma , Backslash \
+Record 4, Field 2: pqr
+Record 4, Field 3: Semicolon ;
+Record 4, Field 4: Colon :|vwx Colon : jkl|Grave `
+Record 4, Field 5: 456
+Record 5, Field 1: Period . stu
+Record 1, Field 1: <BLANK>
+Record 1, Field 2: Dollar $ Exclamation !
+Record 1, Field 3: <BLANK>
+Record 1, Field 4: Pipe |!456 VWX%abc
+Record 1, Field 5: Question ?%Comma , Left Parenthesis (%Grave ` Left Brace [
+Record 1, Field 6: Right Parenthesis )!GHI!ghi!Plus +%Question ?
+Record 1, Field 7: Comma , Equals =!Plus +
+Record 2, Field 1: Less Than <%Comma ,%Colon :
+Record 2, Field 2: Colon : Right Bracket } mno Right Parenthesis )"Asterisk *
+Record 3, Field 1: ABC!Single Quote '
+Record 3, Field 2: vwx!pqr
+Record 3, Field 3: <BLANK>
+Record 3, Field 4: VWX ABC Less Than <!Equals =!vwx
+Record 3, Field 5: Left Bracket {"Underscore _"JKL"MNO Left Bracket {
+Record 3, Field 6: Period . Greater Than > yz!DEF!Hashtag #
+Record 3, Field 7: Underscore _%123 jkl!Equals =
+Record 4, Field 1: Semicolon ; Right Bracket }
+Record 4, Field 2: JKL Tilde ~%stu!abc Grave `
+Record 4, Field 3: Left Bracket {!PQR%ABC Caret ^!Colon :
+Record 4, Field 4: <BLANK>
+Record 1, Field 1: Dollar $$DEF!yz$pqr
+Record 2, Field 1: Comma ,
+Record 2, Field 2: 123
+Record 2, Field 3: Question ?$yz
+Record 1, Field 1: <BLANK>
+Record 1, Field 2: vwx Hashtag #
+Record 1, Field 3: def:123
+Record 1, Field 4: YZ
+Record 2, Field 1: Single Quote '
+Record 2, Field 2: <BLANK>
+Record 2, Field 3: Period .:Percent %:Grave `
+Record 3, Field 1: Slash /
+Record 4, Field 1: JKL
+Record 4, Field 2: <BLANK>
+Record 1, Field 1: Right Brace ]+vwx yz Less Than <
+Record 1, Field 2: Underscore _
+Record 2, Field 1: Dollar $%MNO+Tilde ~+Slash /
+Record 2, Field 2: DEF vwx Question ?%Question ?
+Record 2, Field 3: 789+Question ?%Percent %
+Record 2, Field 4: pqr+Exclamation !+Right Parenthesis )%JKL
+Record 2, Field 5: stu+456+ghi+Caret ^ Hashtag #
+Record 1, Field 1: Dash - MNO:Right Bracket }:ghi
+Record 1, Field 2: Asterisk *:Question ?
+Record 1, Field 3: Grave `
+Record 1, Field 4: MNO
+Record 1, Field 5: abc Right Bracket } Exclamation !
+Record 1, Field 6: STU:vwx
+Record 2, Field 1: Grave `
+Record 2, Field 2: Right Parenthesis ):abc:Dollar $$At @:Tilde ~
+Record 2, Field 3: Slash / Colon :
+Record 2, Field 4: Percent %
+Record 2, Field 5: Left Bracket { At @:abc abc$Slash /
+Record 2, Field 6: GHI
+Record 3, Field 1: <BLANK>
+Record 3, Field 2: jkl$Backslash \
+Record 3, Field 3: ghi:VWX Colon ::yz Question ?
+Record 3, Field 4: Single Quote ' Equals ="abc
+Record 4, Field 1: <BLANK>
+Record 4, Field 2: <BLANK>
+Record 4, Field 3: Right Brace ]:Hashtag # 456:At @
+Record 4, Field 4: Single Quote ':Dash -
+Record 4, Field 5: <BLANK>
+Record 4, Field 6: ghi$def:JKL:DEF PQR
+Record 4, Field 7: 123 PQR
+Record 1, Field 1: Asterisk * mno"MNO"Less Than <
+Record 2, Field 1: <BLANK>
+Record 2, Field 2: PQR
+Record 2, Field 3: <BLANK>
+Record 2, Field 4: Left Parenthesis (
+Record 3, Field 1: Percent %/Right Brace ]/ghi/def/Left Parenthesis (
+Record 4, Field 1: vwx/pqr Pipe |+Percent % Left Parenthesis (
+Record 4, Field 2: Hashtag #/123/GHI
+Record 4, Field 3: 789 Caret ^ 456
+Record 4, Field 4: <BLANK>
+Record 1, Field 1: Hashtag # ghi#Slash /
+Record 2, Field 1: Question ?\def Dash -\Equals = VWX
+Record 2, Field 2: DEF\Underscore _\MNO#Left Parenthesis (
+Record 2, Field 3: abc vwx
+Record 2, Field 4: def 789
+Record 2, Field 5: <BLANK>
+Record 2, Field 6: jkl
+Record 2, Field 7: Equals = Plus +\At @\VWX#ABC
+Record 3, Field 1: Greater Than >
+Record 3, Field 2: Right Bracket } jkl Asterisk *#789
+Record 3, Field 3: <BLANK>
+Record 3, Field 4: <BLANK>
+Record 3, Field 5: pqr At @\Hashtag #\Backslash \
+Record 3, Field 6: Dollar $ abc\Left Parenthesis (
+Record 1, Field 1: Semicolon ;%Semicolon ; Caret ^
+Record 1, Field 2: abc%Single Quote ' def^Left Brace [
+Record 2, Field 1: ABC^Period .%Plus +
+Record 1, Field 1: jkl:Underscore _:GHI&At @
+Record 1, Field 2: YZ
+Record 1, Field 3: DEF Single Quote '
+Record 1, Field 4: <BLANK>
+Record 1, Field 5: Question ?:Underscore _:Ampersand &
+Record 2, Field 1: Left Parenthesis (:Dollar $:Less Than <
+Record 3, Field 1: Dash -
+Record 3, Field 2: ghi Question ? Slash /
+Record 3, Field 3: 123:Percent %
+Record 1, Field 1: Right Bracket }$Left Bracket {$456:Right Bracket }:mno
+Record 1, Field 2: <BLANK>
+Record 2, Field 1: 123 Ampersand &$Left Bracket { Left Parenthesis ("mno
+Record 2, Field 2: <BLANK>
+Record 2, Field 3: <BLANK>
+Record 2, Field 4: Hashtag #
+Record 3, Field 1: <BLANK>
+Record 3, Field 2: Comma ,:Plus + abc$Comma , Single Quote '
+Record 3, Field 3: Right Bracket }$ABC:At @ Right Parenthesis )
+Record 4, Field 1: <BLANK>
+Record 4, Field 2: Underscore _$Exclamation ! Ampersand &:stu
+Record 4, Field 3: Period .
+Record 4, Field 4: Right Bracket }$Pipe | GHI$pqr
+Record 4, Field 5: Greater Than >
+Record 4, Field 6: PQR:At @$ABC At @
+Record 1, Field 1: mno Equals = Percent %
+Record 1, Field 2: Single Quote '
+Record 1, Field 3: Dash -+def+Ampersand &
+Record 1, Field 4: Question ? Semicolon ;+Grave `
+Record 1, Field 5: Ampersand & Equals =/Exclamation !+VWX
+Record 2, Field 1: Colon :+Hashtag # Question ?/abc
+Record 2, Field 2: Semicolon ; DEF Comma ,/Period .
+Record 1, Field 1: yz"Exclamation !"STU Tilde ~ PQR
+Record 1, Field 2: Left Parenthesis (\Dash -,Plus +,JKL
+Record 1, Field 3: Dash -,pqr\Hashtag #,Question ?
+Record 1, Field 4: <BLANK>
+Record 1, Field 5: Right Brace ],Percent % DEF\Period . Question ?
+Record 1, Field 6: <BLANK>
+Record 1, Field 7: <BLANK>
+Record 2, Field 1: DEF\MNO
+Record 2, Field 2: <BLANK>
+Record 2, Field 3: YZ Period . Ampersand &\VWX\Asterisk *
+Record 2, Field 4: Left Parenthesis (,ABC,mno Left Brace [
+Record 2, Field 5: DEF\Dash -\Left Brace [,ghi Grave `
+Record 2, Field 6: Grave ` Left Brace [ Tilde ~
+Record 2, Field 7: pqr\Period .\Pipe |,Semicolon ;
+Record 3, Field 1: ghi,Equals =,789
+Record 3, Field 2: Left Bracket {
+Record 3, Field 3: Single Quote '\Less Than < Ampersand &
+Record 1, Field 1: Ampersand &
+Record 1, Field 2: MNO\GHI Slash /+GHI\Asterisk *
+Record 2, Field 1: <BLANK>
+Record 2, Field 2: <BLANK>
+Record 2, Field 3: Slash /\Colon :+yz
+Record 2, Field 4: Single Quote '"mno\pqr JKL Left Parenthesis (
+Record 2, Field 5: def\Left Brace [+Semicolon ;+YZ Right Parenthesis )
+Record 2, Field 6: Percent %
+Record 3, Field 1: Period .+stu\STU\Ampersand &
+Record 3, Field 2: STU\Exclamation ! DEF+vwx
+Record 3, Field 3: Grave `+pqr+abc+Caret ^\Right Brace ]
+Record 3, Field 4: 789 Left Bracket {
+Record 3, Field 5: Single Quote '
+Record 3, Field 6: Left Parenthesis (\ABC+PQR\Right Parenthesis )\Underscore _
+Record 3, Field 7: Less Than <+Backslash \+At @\Dollar $+GHI
+Record 4, Field 1: Slash /\mno+MNO
+Record 4, Field 2: Equals =+Pipe |+Left Parenthesis ( Slash /
+Record 5, Field 1: Asterisk *
+Record 5, Field 2: Equals =+Pipe |\DEF+def
+Record 5, Field 3: Right Brace ]\Pipe |\DEF+789 Plus +
+Record 5, Field 4: Colon :+Exclamation !
+Record 5, Field 5: Left Bracket {+Question ?+Caret ^+Ampersand &+Hashtag #
+Record 1, Field 1: Equals =;jkl;At @;yz
+Record 1, Field 2: 456%VWX%YZ
+Record 1, Field 3: <BLANK>
+Record 1, Field 4: Backslash \
+Record 1, Field 5: Equals =;def Right Bracket }
+Record 1, Field 6: Semicolon ;;Right Bracket } Colon : abc
+Record 2, Field 1: Period .;GHI
+Record 2, Field 2: Question ?;Question ? Comma ,%Period .
+Record 2, Field 3: Right Bracket }%Asterisk *
+Record 2, Field 4: Left Bracket {
+Record 1, Field 1: <BLANK>
+Record 2, Field 1: JKL/Period ./Slash /"Greater Than >"abc
+Record 2, Field 2: abc ABC:Less Than < JKL/Dollar $
+Record 2, Field 3: JKL ghi ghi
+Record 2, Field 4: Semicolon ; DEF
+Record 2, Field 5: <BLANK>
+Record 3, Field 1: jkl:Right Parenthesis )
+Record 3, Field 2: 456:Less Than <
+Record 3, Field 3: vwx def/Percent % def:Dash -
+Record 3, Field 4: Right Brace ] VWX
+Record 1, Field 1: <BLANK>
+Record 1, Field 2: Single Quote '+Right Brace ]/Exclamation !
+Record 1, Field 3: Underscore _+Tilde ~+Right Bracket }
+Record 1, Field 4: Comma ,+Question ?/Less Than < PQR+yz
+Record 1, Field 5: JKL/MNO/Exclamation !
+Record 1, Field 6: PQR jkl+Less Than <+vwx+DEF
+Record 2, Field 1: Caret ^
+Record 2, Field 2: GHI/Tilde ~+Exclamation ! Percent %
+Record 2, Field 3: Right Parenthesis )/Question ? Equals =
+Record 3, Field 1: <BLANK>
+Record 3, Field 2: At @ Single Quote ' Question ?/Equals =
+Record 3, Field 3: vwx+Less Than < yz/ghi
+Record 3, Field 4: Left Brace [/Percent %
+Record 3, Field 5: <BLANK>
+Record 3, Field 6: <BLANK>
+Record 3, Field 7: <BLANK>
+Record 1, Field 1: Pipe | 789 456^stu
+Record 1, Field 2: Period .^Less Than < 456 Comma ,
+Record 1, Field 3: GHI\Left Bracket {\Hashtag #^Grave ` VWX
+Record 1, Field 4: 123 pqr vwx
+Record 1, Field 5: <BLANK>
+Record 1, Field 6: Pipe |\Comma ,^456
+Record 1, Field 7: Colon :\YZ Left Parenthesis (^Right Parenthesis )^Colon :
+Record 2, Field 1: Equals =
+Record 3, Field 1: Dollar $\yz\Backslash \
+Record 3, Field 2: DEF"Hashtag # Dollar $
+Record 3, Field 3: <BLANK>
+Record 3, Field 4: Equals =\stu
+Record 3, Field 5: <BLANK>
+Record 3, Field 6: Right Brace ]^Percent %\Percent %
+Record 3, Field 7: ghi\Backslash \\jkl
+Record 4, Field 1: Hashtag #^ABC^Left Bracket { stu
+Record 4, Field 2: stu MNO\456
+Record 4, Field 3: <BLANK>
+Record 4, Field 4: Ampersand &^Less Than <^Grave `\Left Bracket {
+Record 4, Field 5: <BLANK>
+Record 1, Field 1: Plus +
+Record 1, Field 2: <BLANK>
+Record 2, Field 1: <BLANK>
+Record 2, Field 2: VWX,Right Parenthesis ),GHI,stu\Backslash \
+Record 2, Field 3: Left Parenthesis (,Left Brace [
+Record 2, Field 4: Percent %
+Record 2, Field 5: PQR\Right Brace ] Dash - ABC
+Record 2, Field 6: <BLANK>
+Record 3, Field 1: Semicolon ;\YZ\GHI 456
+Record 3, Field 2: mno Period .
+Record 4, Field 1: <BLANK>
+Record 4, Field 2: yz
+Record 1, Field 1: PQR Less Than <&Greater Than > Greater Than >
+Record 1, Field 2: Caret ^&Caret ^
+Record 2, Field 1: PQR^Right Parenthesis )^Semicolon ;&Backslash \
+Record 2, Field 2: yz Underscore _"At @
+Record 2, Field 3: ghi
+Record 2, Field 4: PQR^Question ? 456 jkl
+Record 2, Field 5: Tilde ~
+Record 2, Field 6: Question ?
+Record 2, Field 7: Dollar $
+Record 3, Field 1: DEF&Semicolon ;&Left Brace [ Caret ^
+Record 1, Field 1: abc abc
+Record 1, Field 2: YZ
+Record 2, Field 1: Colon :/Single Quote '/At @,789
+Record 2, Field 2: <BLANK>
+Record 2, Field 3: <BLANK>
+Record 3, Field 1: Pipe | STU,Backslash \/At @
+Record 3, Field 2: <BLANK>
+Record 3, Field 3: 456/Backslash \/Left Brace [
+Record 3, Field 4: PQR
+Record 3, Field 5: ghi,JKL,Left Bracket {,Slash //Comma ,
+Record 3, Field 6: mno
+Record 3, Field 7: Less Than <

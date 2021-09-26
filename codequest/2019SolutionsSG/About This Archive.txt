@@ -1,0 +1,29 @@
+This archive file contains the following information about the 2019 Code Quest contest:
+
+* Solutions to all 24 problems in each of the contest's 5 programming languages, as written by 
+  Lockheed Martin employees
+* The official inputs used to judge student solutions. These inputs are mostly randomly generated,
+  but are specifically designed to ensure that they cover the most extreme cases permitted by the 
+  problem description.
+* The official outputs compared against the student outputs when judging solutions. These outputs 
+  were required to match students' outputs exactly (including whitespace) in order to receive credit.
+* The sample inputs provided in the problem packet. These inputs were also used in the judging 
+  process.
+* The sample outputs provided in the problem packet. These outputs were also checked during the 
+  judging process; students were provided with the results of this comparison within the DOMJudge 
+  software.
+* A selection of solutions written by students during the contest in Europe and North America. This 
+  collection is missing some solutions for some languages, in cases where no team was successfully 
+  able to solve a problem in a particular language, but we have included at least one solution for 
+  each problem. All of these solutions were judged as correct during the contest.
+* The problem packet itself
+
+Please note that for our European and North American contests, the solutions had to read from the
+standard input channel (the console), not from a file. As a result, the Lockheed solutions in C, C++,
+and VB.NET, as well as the student solutions in all languages, will read from the standard input 
+channel. Please refer to language-specific documentation for more information about how to handle 
+file input in your preferred programming language.
+
+If you have any questions about any of the content of this archive, please contact Brett Reynolds, 
+Global Problems Lead, at brett.w.reynolds@lmco.com . Thank you for attending this year's Code Quest,
+and we hope to see you again next year.
